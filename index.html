@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herbert · Diseño Gráfico</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="print" onload="this.media='all'">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
+    
     <link rel="icon" type="image/svg+xml" href="h_logo.svg">
 </head>
 
@@ -41,7 +48,7 @@
                     <div class="circle-third"></div>
                 </div>
                 <div class="hero-logo">
-                    <img src="h_logo.svg" alt="Herbert" class="logo-img">
+                    <object data="h_logo.svg" type="image/svg+xml" class="logo-img">Herbert </object>
                 </div>
         </section>
 
@@ -88,20 +95,21 @@
     <div class="container">
         <h2 class="section-title">Trabajos <span class="accent">recientes</span></h2>
         <div class="portfolio-grid">
-            <div class="project-card large">
-                <img src="cofifolleto.png" alt="Tarjeta de presentación para COFI">
-                <div class="project-info">
-                    <span class="category">Mockups</span>
-                    <h3>COFI</h3>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="coficardpresent.jpg" alt="target presentation">
-                <div class="project-info">
-                    <span class="category">Tarjeta de presentación</span>
-                    <h3>COFI</h3>
-                </div>
-            </div>
+           <div class="project-card large">
+    <img src="cofifolleto.png" alt="Tarjeta de presentación para COFI" loading="lazy" width="600" height="400">
+    <div class="project-info">
+        <span class="category">Mockups</span>
+        <h3>COFI</h3>
+    </div>
+</div>
+
+<div class="project-card">
+    <img src="coficardpresent.jpg" alt="target presentation" loading="lazy" width="600" height="400">
+    <div class="project-info">
+        <span class="category">Tarjeta de presentación</span>
+        <h3>COFI</h3>
+    </div>
+</div>
         </div>
     </div>
 </section>
