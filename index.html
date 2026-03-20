@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbert · Diseño Gráfico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="h_logo.svg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Herbert</h1>
+            <span class="tagline">Diseño Gráfico</span>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Menu" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Deja que alguien lo haga <span class="accent">por tí</span></h2>
+                <p class="hero-subtitle">Retoques, logos, branding y piezas gráficas con carácter. Todo cotizado en
+                    bolivianos, directo y sin vueltas.</p>
+                <a href="#contacto" class="btn">Cotiza ahora</a>
+            </div>
+                <div class="hero-shape">
+                    <div class="circle-third"></div>
+                </div>
+                <div class="hero-logo">
+                    <img src="h_logo.svg" alt="Herbert" class="logo-img">
+                </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">Servicios · <span class="accent">precios desde</span></h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-paint-brush service-icon"></i>
+                        <h3>Logotipos</h3>
+                        <p>Diseño de marca conceptual y versátil.</p>
+                        <span class="price">desde 100 Bs</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-bezier-curve service-icon"></i>
+                        <h3>Branding & Mockups</h3>
+                        <p>Identidad visual completa y presentaciones realistas de tus diseños.</p>
+                        <span class="price">desde 300 Bs</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-id-card service-icon"></i>
+                        <h3>Tarjetas</h3>
+                        <p>Diseño y entrega en formato digital de alta calidad.</p>
+                        <span class="price">desde 100 Bs</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-book-open service-icon"></i>
+                        <h3>Catálogos digitales</h3>
+                        <p>Catálogos de productos o servicios.</p>
+                        <p>Incluye diseño para impresión de QR.</p>
+                        <span class="price">desde 200 Bs</span>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-pencil-alt service-icon"></i>
+                        <h3>Retoques | Tareas sencillas</h3>
+                        <p>Diseños rápidos, ediciones simple, corrección de color, limpieza, detalles, etc.</p>
+                        <span class="price">desde 30 Bs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">Trabajos <span class="accent">recientes</span></h2>
+        <div class="portfolio-grid">
+            <div class="project-card large">
+                <img src="cofifolleto.png" alt="Tarjeta de presentación para COFI">
+                <div class="project-info">
+                    <span class="category">Mockups</span>
+                    <h3>COFI</h3>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="coficardpresent.jpg" alt="target presentation">
+                <div class="project-info">
+                    <span class="category">Tarjeta de presentación</span>
+                    <h3>COFI</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">¿Necesitas algo a medida?</h2>
+                <div class="contact-content">
+                    <p class="contact-text">Escribime directamente por WhatsApp o correo, y te paso un presupuesto sin
+                        compromiso.</p>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/59161196628?text=Hola%20Herbert,%20quiero%20cotizar%20un%20diseño"
+                            class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="mailto:herberthurtado8@gmail.com" class="btn btn-email"><i class="far fa-envelope"></i>
+                            @herbert.design</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="current-year"></span> Herbert · Diseño Gráfico. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
